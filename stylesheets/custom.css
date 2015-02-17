@@ -3,6 +3,13 @@ body {
   color: rgba(255,255,255,0.87);
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
 a {
   color: #ffab40;
 }
@@ -52,19 +59,19 @@ a {
 }
 
 .footer {
-  background: rgba(255,255,255,0.13);
-  color: rgba(255,255,255,0.74);
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.52);
   margin-top: 4rem;
   padding: 1rem 0;
   text-align: center;
 }
 
 .footer a {
-  color: rgba(255,255,255,0.74);
+  color: rgba(255,255,255,0.52);
 }
 
 .footer a:hover, .footer a:focus {
-  color: rgba(255,255,255,0.87);
+  color: rgba(255,255,255,0.74);
 }
 
 @media (max-width: 720px) {
